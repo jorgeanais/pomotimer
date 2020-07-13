@@ -1,4 +1,4 @@
-Pomodoro work session timer
+Pomodoro work-session timer
 ===========================
 
 > Status: First version released
@@ -16,7 +16,7 @@ Motivation
 The confinement situation due to the COVID-19 pandemic has made it more difficult
 for us as students to focus and advance in our studies, which is why, like
 many others, we have created our own virtual office to work and support each
-other online. This simple tool is useful for synchronizing blocks of work and fun.
+other online. This simple tool is useful for synchronizing blocks of work and relax.
 
 Requirements
 ------------
