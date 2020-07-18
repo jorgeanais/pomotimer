@@ -31,8 +31,8 @@ blocks_number = 3
 
 # Sound settings (requires sox; sudo apt install sox)
 nice_sound = 'play -nq -t alsa synth pl G2 pl B2 pl D3 pl G3 pl D4 pl G4 delay 0 .05 .1 .15 .2 .25 remix - fade 0 4 .1 norm -1'
-annoying_sound = 'play -nq -t alsa synth 3 sin 0+19000 sin 1000+20000 remix 1,2 channels 2'
-sine_sound = 'play -nq -t alsa synth 3 sine 500'
+# annoying_sound = 'play -nq -t alsa synth 3 sin 0+19000 sin 1000+20000 remix 1,2 channels 2'
+# sine_sound = 'play -nq -t alsa synth 3 sine 500'
 
 # Time calculations
 blocks = np.arange(blocks_number)
@@ -75,5 +75,5 @@ for blk in range(blocks_number):
         for _ in bar:
             time.sleep(1)
 
-    os.system(annoying_sound)
+    os.system(nice_sound)
 
